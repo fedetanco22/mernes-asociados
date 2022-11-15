@@ -1452,7 +1452,7 @@ section {
 .contact .php-email-form textarea {
     padding: 12px 15px;
 }
-.contact .php-email-form button[type='submit'] {
+.contact .php-email-form input[type='submit'] {
     background: #1e4371;
     border: 0;
     padding: 10px 24px;
@@ -2056,7 +2056,7 @@ section {
 }
 
 /* Small devices y horiz entre 576px y 768px*/
-@media screen and (min-width: $bp_potrait-phones) {
+@media screen and (min-width: 756px) {
     .whatsapp-button {
         font-size: 35px;
         height: 75px;
